@@ -1,4 +1,4 @@
-MIT License
+# MIT License
 
 Copyright (c) 2023-2024 哲学読書会(philomath-club)
 
