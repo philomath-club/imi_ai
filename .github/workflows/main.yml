@@ -2,6 +2,13 @@ name: docsify-ci
 
 on: [push]
 
+permissions:
+  contents: write
+
+env:
+  GITHUB_MAIL: 41898282+github-actions[bot]@users.noreply.github.com
+  GITHUB_NAME: github-actions[bot]
+
 jobs:
   bump:
     runs-on: ubuntu-latest
